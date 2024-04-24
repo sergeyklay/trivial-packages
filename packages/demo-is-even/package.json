@@ -20,7 +20,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "test": "npx lerna run build --scope=demo-is-even && jest"
+    "test": "jest"
   },
   "bugs": {
     "url": "https://github.com/sergeyklay/trivial-packages/issues"
