@@ -4,8 +4,14 @@
 
 ## Usage
 
-```
-const demoIsOdd = require('demo-is-odd');
+### Build
 
-// TODO: DEMONSTRATE API
+```shell
+npx lerna run build --scope=demo-is-odd
+```
+
+### Test
+
+```shell
+npx lerna run test --scope=demo-is-odd
 ```
