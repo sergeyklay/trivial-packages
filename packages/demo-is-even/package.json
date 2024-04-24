@@ -19,7 +19,8 @@
     "url": "git+https://github.com/sergeyklay/trivial-packages.git"
   },
   "scripts": {
-    "test": "node ./__tests__/demo-is-even.test.js"
+    "build": "tsc",
+    "test": "npx lerna run build --scope=demo-is-even && jest"
   },
   "bugs": {
     "url": "https://github.com/sergeyklay/trivial-packages/issues"

@@ -1,7 +1,7 @@
-'use strict';
+const { isEven } = require('../dist/demo-is-even.js');
 
-const demoIsEven = require('../lib/demo-is-even');
-const assert = require('assert').strict;
-
-assert.strictEqual(demoIsEven(), 'Hello from demoIsEven');
-console.info('demoIsEven tests passed');
+test('isEven', () => {
+    expect(isEven(1)).toBe(false);
+    expect(isEven(2)).toBe(true);
+    expect(isEven(1)).toBe(false);
+});
