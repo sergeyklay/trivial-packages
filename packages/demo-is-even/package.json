@@ -1,0 +1,34 @@
+{
+  "name": "demo-is-even",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Serghei Iakovlev <egrep@protonmail.ch>",
+  "homepage": "https://github.com/sergeyklay/trivial-packages#readme",
+  "license": "ISC",
+  "main": "dist/demo-is-even.js",
+  "types": "dist/demo-is-even.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergeyklay/trivial-packages.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/demo-is-even.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/sergeyklay/trivial-packages/issues"
+  },
+  "dependencies": {
+    "demo-is-odd": "*"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "typescript": "^5.4.5"
+  }
+}
